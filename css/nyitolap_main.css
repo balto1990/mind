@@ -1,0 +1,40 @@
+.nyitolap {
+    display: flex;
+    width: 100%;
+}
+.nyitolap > div:nth-child(2) {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.nyitolap > div:nth-child(1) {
+    padding: 20px;
+    text-align: center;
+}
+@media (min-width: 769px ) {
+    .nyitolap { 
+        flex-direction: row !important;
+    }
+}
+@media (max-width: 768px ) {
+    .nyitolap { 
+        flex-direction: column;
+    }
+}
+.cikk {
+    width: 70%;
+    text-align: justify;
+}
+
+.main {
+    background-color: transparent;
+}
+
+a.ref {
+
+    background-color: transparent;
+    color: #717f86;
+    font-family: 'Open Sans', sans-serif;;
+}
